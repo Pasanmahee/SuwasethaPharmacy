@@ -1,22 +1,63 @@
-# SuwasethaPharmacy
-Java based Stock managment and inventory control system
-In this project developed an automated system for the Suwasetha Pharmacy,Kurunegala.
-Suwasetha pharmacy is one of the famous pharmacies which is located in Kurunegala. Before
-developing the system for the company, the system developing techniques and the system
-models have been explained in detail and the advantages and the shortcomings of these
-models are also has been explained.
-Using an automated system instead of manual system can acquire many advantages.
-Customer satisfaction is the key role in a company. With an automated system like this
-customer satisfaction can increase like It take less time than manual system to take an order,
-find all the drugs in the category and print the bill as well. Another huge advantage is
-pharmacy can keep records of the customer with those records’ pharmacy can analyzed who
-are the customers that need medications regularly. Pharmacy can focus on them much more
-than the other customers. Pharmacy has customer personal information with that information
-they can keep contact the customers.
-In Employee perspective automated system gave a good and happy working environment.
-Employee don’t need to memories all the drug names, brand names or prices. Most
-importantly all the bill calculations done by the system as a result of that accuracy will
-increased. All the employee personal information has the pharmacy with those information
-owners can keep contact them and increase employee satisfaction level.
-In the owner’s perspective he can generate multiple reports and analyze those data. With
-those information owners can make future recommendations for the company.
+# Suwasetha Pharmacy
+
+Suwasetha Pharmacy is an integrated system used to manage various operational functions of the pharmacy and aims at improving its effectiveness and quality of services offered to patients. Some of the features offered this system include inventory, sales control, prescription management, and more.
+
+## Features
+
+- **Inventory Management:** Track stock levels, manage suppliers, and automate reordering.
+- **Sales Tracking:** Monitor sales, generate invoices, and analyze sales data.
+- **Prescription Processing:** Handle prescriptions efficiently with detailed records and alerts.
+- **User Management:** Manage staff roles and permissions.
+- **Reporting:** Generate detailed reports on various aspects of the pharmacy’s operations.
+
+## Prerequisites
+
+- **Java Development Kit (JDK):** Ensure you have JDK 8 or higher installed.
+- **Apache Ant:** Ensure Ant is installed on your machine. You can download it from [here](https://ant.apache.org/bindownload.cgi).
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Pasanmahee/SuwasethaPharmacy.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   cd SuwasethaPharmacy
+
+## Build and Run
+
+1. **Build the Project:**
+   - Open a terminal or command prompt.
+   - Navigate to the project directory.
+   - Run the following command to clean the project:
+   ```bash
+     ant clean
+   ```
+     This command removes any previously compiled files and build artifacts, preparing a clean state for a new build.
+   - Run the following command to build the project:
+   ```bash
+     ant build
+   ```
+     This command compiles the source code and packages the application according to the instructions defined in the `build.xml` file.
+
+2. **Run the Project:**
+   - After building the project, run the following command to start the application:
+     ant run
+     This command launches the application, allowing you to interact with the graphical user interface (GUI).
+
+## Usage
+
+- **Access the System:** Once the application is running, interact with the graphical user interface (GUI) to use the pharmacy management features.
+
+## Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please contact us at [contact@pasanmahee.com](mailto:contact@pasanmahee.com).
